@@ -1,0 +1,11 @@
+version: "3.4"
+services:
+  rms-fe:
+    image: rms-fe
+    restart: always
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: rms-frontend
+    ports:
+      - 4000:80

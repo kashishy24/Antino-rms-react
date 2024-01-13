@@ -1,0 +1,24 @@
+/* gives higher priority and make sure it will apply only where both classname are available */
+.loginbutton.MuiButton-root {
+    margin-top: 1rem;
+    width: 100%;
+    color: white
+}
+
+.sidebackground {
+    height: 100%;
+    width: 100%;
+}
+
+.logininputcontainer{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 900px) {
+    .sidebackground {
+      display: none
+    } 
+ }

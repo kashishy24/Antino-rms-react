@@ -1,0 +1,34 @@
+/* gives higher priority and make sure it will apply only where both classname are available */
+.signupbutton.MuiButton-root {
+    margin-top: 1rem;
+    width: 100%;
+    color: white
+}
+
+.sidebackground {
+    height: 100%;
+    width: 100%;
+}
+
+.signupinputcontainer.MuiGrid-root{
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.signupinputbox{
+    display: flex;
+    justify-content: center;
+}
+
+.signuplogo{
+    padding-left: 50px;
+}
+
+@media (max-width: 900px) {
+    .sidebackground {
+      display: none
+    } 
+ }
